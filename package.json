@@ -1,0 +1,27 @@
+{
+  "name": "my-team-generator",
+  "version": "1.0.0",
+  "description": "a command line application that will prompt the user for input's to generate team cards",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "inquirer": "^8.1.2",
+    "jest": "^27.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KyleKilmartin371/my-team-generator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KyleKilmartin371/my-team-generator/issues"
+  },
+  "homepage": "https://github.com/KyleKilmartin371/my-team-generator#readme"
+}
