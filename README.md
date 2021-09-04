@@ -12,7 +12,7 @@
   This project is a command line application that will prompt the user for input about team members and then will return an html page with all of the team members nicely organized. 
 
 ## Installation
-  In order to run this program the user must install NPM, then from npm install require and jest. From there run 'node index' in the command line and the program should begin!
+  In order to run this program the user must install NPM, then from npm install inquire and jest. From there run 'node index' in the command line and the program should begin!
 
 ## Usage
 
