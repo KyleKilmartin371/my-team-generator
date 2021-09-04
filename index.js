@@ -4,6 +4,7 @@ const Employee = require('./lib/Employee');
 const Manager = require('./lib/Manager');
 const Engineer = require('./lib/Engineer');
 const Intern = require('./lib/Intern');
+const generateHtml = require('./lib/generateHTML')
 const employees = [];
 
 const questions = () => {
@@ -143,12 +144,12 @@ function nextEmployee() {
         if (answers.newTeamMember) {
           questions();
         } else {
-        //   fs.writeFile("./src/index.html", generateHtml.writeToFile(employees), (err) => {
-        //     if (err) throw err;
-            console.log("Employee Cards Finished!");
-        //   });
-        }
-      });
-  }
+          fs.writeFile("./src/index.html", generateHtml.writeToFile(employees), (err) => {
+            if (err) throw err;
+            console.log("Employee Cards ready!");
+        })
+      };
+  });
+};
 
 questions();
